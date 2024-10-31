@@ -9,21 +9,21 @@
 $ apt update && apt upgrade -y
 $ pkg install -y root-repo
 $ pkg install -y git tsu python wpa-supplicant pixiewps iw
-$ git clone https://github.com/SMTanvirANoor/WPS_Wifi_Cracker_For_TP-Link_Router.git
-$ chmod +x WPS_Wifi_Cracker_For_TP-Link_Router/Tanvir_inject.py
+$ git clone https://github.com/mrrininfo/Wifi.git
+$ chmod +x Wifi/Rin_crack_wifi.py
 To Run: 
-$ sudo python Tanvir_inject.py -i wlan0 -K
+$ sudo python Wifi/Rin_crack_wifi.py -i wlan0 -K
 ```
 
-#### Example : `sudo python Tanvir_inject.py -i wlan0 -K`
+#### Example : `sudo python Rin_crack_wifi.py -i wlan0 -K`
 
 #### Note: 
 **First turn off your Wifi.**
 - Show avaliable networks and start Pixie Dust attack on a specified network.
-- `sudo python Tanvir_inject.py -i wlan0 -K`
+- `sudo python Rin_crack_wifi.py -i wlan0 -K`
 - - Start Pixie Dust attack on a specified BSSID:
-`sudo python Tanvir_inject.py -i wlan0 -b 00:91:4C:C3:AC:28 -K`
+`sudo python Rin_crack_wifi.py -i wlan0 -b 00:91:4C:C3:AC:28 -K`
 - Launch online WPS bruteforce with the specified first half of the PIN:
-- `sudo python Tanvir_inject.py -i wlan0 -b 00:90:4C:C1:AC:21 -B -p 1234`
+- `sudo python Rin_crack_wifi.py -i wlan0 -b 00:90:4C:C1:AC:21 -B -p 1234`
 ### Troubleshooting
 **"Device or resource busy (-16)" - Turn on Wifi and Then Turn off Wifi.**
