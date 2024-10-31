@@ -21,8 +21,8 @@ print('''
 \033[1;92m Recoded By Tanvir A Noor
 D4RK H4CK3R
 Facebook: @imtanviranoor
-One line Command:\nsudo python Wifi_Hack/Tanvir_inject.py -i wlan0 -K\n
-For Help Type:\npython Wifi_Hack/Tanvir_inject.py --help\033[0m
+One line Command:\nsudo python Wifi_Hack/Rin_crack_wifi.py -i wlan0 -K\n
+For Help Type:\npython Wifi_Hack/Rin_crack_wifi.py --help\033[0m
 ''')
 class NetworkAddress:
     def __init__(self, mac):
